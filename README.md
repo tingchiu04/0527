@@ -1,5 +1,3 @@
-# 0527
-
 # 第二個作業-411703517邱婷
 
 #### 與上一步內容無改動的會省略(js檔/html檔等)
@@ -1904,6 +1902,7 @@ function draw() {
     if(score<=0){
       ets.splice(0,ets.length)
       cats.splice(0,cats.length)
+      monsters.splice(0,monsters.length)
       rectMode(CENTER)
       background("#efd3d7")
       fill("#e29578")
@@ -1919,6 +1918,7 @@ function draw() {
     else if(score>0 && monsters.length == 0){
       ets.splice(0,ets.length)
       cats.splice(0,cats.length)
+      monsters.splice(0,cats.length)
       rectMode(CENTER)
       background("#efd3d7")
       fill("#e29578")
